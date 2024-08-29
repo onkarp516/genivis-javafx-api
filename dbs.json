@@ -1,0 +1,20 @@
+[
+  {
+    "code": "gvmh001",
+    "url": "jdbc:mysql://localhost:3306/genivis_pharma_db",
+    "username": "root",
+    "password": "Root@123"
+  },
+  {
+    "code": "gvmh002",
+    "url": "jdbc:mysql://localhost:3306/genivis_gvmh002_db",
+    "username": "root",
+    "password": "Root@123"
+  },
+  {
+    "code": "gvmh003",
+    "url": "jdbc:mysql://localhost:3306/genivis_gvmh003_db",
+    "username": "root",
+    "password": "Root@123"
+  }
+]

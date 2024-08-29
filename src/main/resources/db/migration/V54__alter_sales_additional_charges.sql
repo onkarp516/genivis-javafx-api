@@ -1,0 +1,2 @@
+ALTER TABLE tranx_sales_invoice_additional_charges_tbl
+ADD percent DOUBLE NULL;

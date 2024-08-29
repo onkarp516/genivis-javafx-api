@@ -1,0 +1,8 @@
+ALTER TABLE tranx_counter_sales_details_units_tbl
+ADD COLUMN transaction_status BIGINT NULL,
+ADD COLUMN igst DOUBLE NULL,
+ADD COLUMN sgst DOUBLE NULL,
+ADD COLUMN cgst DOUBLE NULL,
+ADD COLUMN total_igst DOUBLE NULL,
+ADD COLUMN total_sgst DOUBLE NULL,
+ADD COLUMN total_cgst DOUBLE NULL;

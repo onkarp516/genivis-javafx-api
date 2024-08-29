@@ -1,0 +1,20 @@
+ALTER TABLE ledger_master_tbl
+ADD district_head_id BIGINT NULL,
+ADD zonal_head_id BIGINT NULL,
+ADD regional_head_id BIGINT NULL,
+ADD state_head_id BIGINT NULL,
+ADD owner_address VARCHAR(255) NULL,
+ADD owner_name VARCHAR(255) NULL,
+ADD owner_pincode BIGINT NULL,
+ADD owner_email VARCHAR(255) NULL,
+ADD owner_mobile BIGINT NULL,
+ADD owner_whatsapp_no BIGINT NULL,
+ADD education BIGINT NULL,
+ADD age BIGINT NULL,
+ADD present_occupation VARCHAR(255) NULL,
+ADD aadar_upload VARCHAR(255) NULL,
+ADD pan_upload VARCHAR(255) NULL,
+ADD owner_state_id BIGINT NULL,
+ADD dlupload VARCHAR(255) NULL,
+ADD gender VARCHAR(255) NULL;
+ALTER TABLE ledger_master_tbl ADD CONSTRAINT FK_LEDGER_MASTER_TBL_ON_OWNER_STATE FOREIGN KEY (owner_state_id) REFERENCES state_tbl (id);

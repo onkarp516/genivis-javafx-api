@@ -1,0 +1,3 @@
+ALTER TABLE area_head_tbl
+ADD COLUMN outlet_id BIGINT NULL,
+ADD COLUMN branch_id BIGINT NULL;
